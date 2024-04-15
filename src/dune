@@ -1,0 +1,5 @@
+(library
+ (name bip340)
+ (public_name bip340)
+ (libraries ctypes ctypes-foreign sha)
+ (c_library_flags -Wl,--no-as-needed -lsecp256k1))
