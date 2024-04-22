@@ -11,6 +11,9 @@ homepage: "https://github.com/andunieee/bip340"
 bug-reports: "https://github.com/andunieee/bip340/issues"
 depends: [
   "dune" {>= "3.14"}
+  "sha"
+  "ctypes"
+  "ctypes-foreign"
   "odoc" {with-doc}
 ]
 build: [

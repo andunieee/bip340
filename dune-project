@@ -11,4 +11,5 @@
  (synopsis "Bitcoin Schnorr signatures")
  (description "libsecp256k1 wrapper for OCaml that only exposes a few primitives required for creating and verifying Schnorr signatures.")
  (tags
-  (topics bitcoin schnorr taproot bip340)))
+  (topics bitcoin schnorr taproot bip340))
+ (depends sha ctypes ctypes-foreign))
